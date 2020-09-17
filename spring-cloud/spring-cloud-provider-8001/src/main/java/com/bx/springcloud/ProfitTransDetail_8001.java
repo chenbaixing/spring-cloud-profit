@@ -14,5 +14,4 @@ public class ProfitTransDetail_8001 {
                 args) ;
     }
 
-
 }
