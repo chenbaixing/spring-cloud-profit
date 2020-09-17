@@ -13,6 +13,7 @@
         <module>spring-cloud-eureka-7003</module>
         <module>spring-cloud-api</module>
         <module>spring-cloud-provider-8001</module>
+        <module>spring-cloud-consumer-9001</module>
     </modules>
 
     <!--打包方式  pom-->
