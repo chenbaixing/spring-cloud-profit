@@ -9,22 +9,20 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-eureka-7001</artifactId>
+    <artifactId>spring-cloud-api</artifactId>
 
-    <!--导包~-->
+    <!--当前module自己需要的依赖,如果父依赖已经配置了版本,这里就不需要写版本号了-->
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-eureka-server -->
-        <!--导入Eureka Server依赖-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--Feign的依赖
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
             <version>1.4.6.RELEASE</version>
         </dependency>
-        <!--热部署工具-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-        </dependency>
+        -->
     </dependencies>
-
 </project>
